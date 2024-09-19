@@ -1,0 +1,34 @@
+.social-media{    
+        /* background-color: #ff5c5c99; */
+        border-radius: 5px;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+}
+
+.section-skill__img {    
+    border-radius: 8px;    
+    max-width: 85%;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a{
+ color: #2c0540;
+}
+.btn-light{
+    background-color: #cc9dff
+}
+.slogan {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2c0540;
+}
+.title {
+    font-size: 2rem;
+}
+@media (min-width: 360px) {
+  
+  }
