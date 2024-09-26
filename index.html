@@ -14,14 +14,13 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-basico fixed-top">
         <div class="container-fluid">
             <div class="text-center">
                 <a class="navbar-brand text-center" href="#">
                     <img src="./src/img/logo.png" alt="" width="30" height="30">
                 </a>
-                <span class="slogan">Desarrollo de software</span>             
-                
+                <span class="slogan">Desarrollo de software</span>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,11 +40,11 @@
                     </li>
                 </ul>
             </div>
-        
+
         </div>
     </nav>
     <div class="container-fluid">
-        <section class="mt-4 mx-auto row" id="about-me">
+        <section class="mt-5 pt-5 mx-auto row" id="about-me">
             <figure class="col-xs-12 col-md-6 d-flex align-items-center">
                 <img src="./src/img/micaela-suarez.jfif" class="rounded-circle mx-auto img-fluid" width="25%" />
             </figure>
@@ -62,31 +61,30 @@
         <!-- start social media -->
         <section class="d-flex justify-content-around mx-auto social-media">
             <div class="">
-                <button type="" class="btn btn-light"  data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
-                    <a href="https://www.linkedin.com/in/micaelasuarez/" class=""
-                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <button type="" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                    <a href="https://www.linkedin.com/in/micaelasuarez/" class="" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
                 </button>
-                <button type="" class="btn btn-light"  data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                <button type="" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
                     <a href="https://github.com/MicaelaSuarezCortez" class="" target="_blank"><i
                             class="fab fa-github"></i></a>
                 </button>
-                
-                <button type="" class="btn btn-light"  data-bs-toggle="tooltip" data-bs-placement="top" title="Email">
-                    <a href="mailto:micaelasuarezco@gmail.com" class=""><i
-                            class="fas fa-at"></i></a>
+
+                <button type="" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Email">
+                    <a href="mailto:micaelasuarezco@gmail.com" class=""><i class="fas fa-at"></i></a>
                 </button>
                 <button type="" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="CV">
-                    <a href="./src/docs/cv-micaela-suarez-cortez.pdf" target="_blank"><i
-                            class="fas fa-file-alt " download="cv-micaela-suarez-cortez"></i></a>
+                    <a href="./src/docs/cv-micaela-suarez-cortez.pdf" target="_blank"><i class="fas fa-file-alt "
+                            download="cv-micaela-suarez-cortez"></i></a>
                 </button>
             </div>
         </section>
         <!-- end social media -->
 
         <!-- start section skill -->
-        <section class="">
+        <section>
             <hr class="">
-            <h2 class="">SKILLS</h2>
+            <h2 class="title">SKILLS</h2>
             <hr class="">
         </section>
         <section class="container-fluid mx-auto" id="skills">
@@ -136,36 +134,49 @@
             </div>
         </section>
         <!-- end section skill -->
-         <!-- start section projects -->
-        <section class="">
+        <!-- start section projects -->
+        <section>
             <hr class="">
-            <h2 class="">PROJECTS</h2>
+            <h2 class="title">PROJECTS</h2>
             <hr class="">
         </section>
-         <!-- end section projects -->
-          <section class="container-fluid mx-auto" id="projects">
-            <h1>projects</h1>
-          </section>
+        <!-- end section projects -->
+        <section class=" row section-projects" id="projects">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="section-projects__hovereffect">
+                    <img class="section-projects__img img-responsive" src="./src/img/spa-heroes.png" alt="heroes">
+                    <div class="section-projects__overlay">
+                        <h2 class="section-projects__h2">HEROES DC/MARVEL</h2>
+                        <a class="section-projects__a" href="#">View
+                            demo</a>
+                        <a class="section-projects__a" href="#">View code</a>
+                        <p class="section-projects__p">SPA that lists the heroes of Marvel and DC and includes a search
+                            engine. </p>
+                    </div>
+                </div>
+            </div>           
+        </section>
     </div>
 
     <footer class="d-flex flex-wrap justify-content-center align-items-center border-top bg-dark py-5">
         <div class="col-md-12 d-flex align-items-center justify-content-center">
-         
+
             <span class="mb-md-0 text-muted pe-2">&copy; 2024, Inc</span>
-            <button type="" class="btn btn-light me-2"  data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+            <button type="" class="btn btn-light me-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Linkedin">
                 <a href="https://www.linkedin.com/in/micaelasuarez/" class="" target="_blank"><i
                         class="fab fa-linkedin-in"></i></a>
             </button>
-            <button type="" class="btn btn-light me-2"  data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
-                <a href="https://github.com/MicaelaSuarezCortez" target="_blank"><i
-                        class="fab fa-github"></i></a>
-            </button>            
+            <button type="" class="btn btn-light me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                <a href="https://github.com/MicaelaSuarezCortez" target="_blank"><i class="fab fa-github"></i></a>
+            </button>
             <button type="" class="btn btn-light me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Email">
                 <a href="mailto:micaelasuarezco@gmail.com"><i class="fas fa-at"></i></a>
             </button>
             <button type="" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="CV">
-                <a href="./src/docs/cv-micaela-suarez-cortez.pdf" target="_blank"><i
-                        class="fas fa-file-alt" download="cv-micaela-suarez-cortez"></i></a>
+                <a href="./src/docs/cv-micaela-suarez-cortez.pdf" target="_blank"><i class="fas fa-file-alt"
+                        download="cv-micaela-suarez-cortez"></i></a>
             </button>
         </div>
     </footer>
